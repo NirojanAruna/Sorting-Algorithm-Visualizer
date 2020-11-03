@@ -1,0 +1,50 @@
+
+body {
+    background: rgb(235,234,244);
+    background: linear-gradient(90deg, rgba(235,234,244,1) 0%, rgba(9,228,215,1) 51%, rgba(0,255,187,1) 100%);
+}
+h1 {
+    color: aquamarine;
+    text-align: center;
+    font-size: 50px;
+    padding: 40px;
+}
+div {
+    background-color: black;
+    overflow: visible;
+}
+#num {
+    position: relative;
+    background-color: transparent;
+    overflow: visible;
+}
+rect {
+    fill:var(--col); 
+    stroke:black;
+    width:var(--wid); 
+    height:var(--hei);
+    visibility:red;
+}
+.slider {
+    width: 50%;
+    height:30px;
+    position: relative;
+    left: 25%;
+    bottom: 100px;
+}
+p {
+    text-align: center;
+    position: relative;
+    bottom: 100px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700;
+}
+.button {
+    position: relative;
+    bottom: 90px;
+    left: 46.5%;
+    width: 120px;
+    padding: 10px;
+    background: greenyellow;
+    border: none;
+}
